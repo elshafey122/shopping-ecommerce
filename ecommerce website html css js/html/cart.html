@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ecommerce</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+</head>
+<body>
+    
+    <section id="header">
+        <a href="#" img><img src="../img/logo.png" class="logo" alt=""></a>
+
+        <div>
+            <ul id="navbar">
+                <li> <a href="index.html">home</a></li>
+                <li><a href="shop.html">shop</a></li>
+                <li><a href="blog.html">blog</a></li>
+                <li><a href="about.html">about</a></li>
+                <li><a href="contact.html">contact</a></li>
+                <li><a class="active" id="lg-bag" href="cart.html"><i class="fa-solid fa-cart-shopping"></i> </a></li>
+                <a href="#" id="close"><i class="fa-sharp fa-solid fa-xmark"></i> </a>
+
+            </ul>
+        </div>
+
+        <div id="mobile">
+            <a href="cart.html"><i class="fa-solid fa-cart-shopping"></i> </a>
+            <i id="bar" class="fa-solid fa-bars"></i>
+        </div>
+       
+    </section>
+
+    <section id="page-header" class="about-header">
+        <h2>#cart</h2>
+        <p>Add your coupon code & save up to 70%</p>
+    </section>
+
+    <section id="cart" class="section-p1">
+
+        <table width="100%">
+            <thead>
+                <tr>
+                    <td>Remove</td>
+                    <td>Image</td>
+                    <td>Product</td>
+                    <td>Price</td>
+                    <td>Quantity</td>
+                    <td>Subtotal</td>
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr>
+                    <td><a href="#"><i class="fa-solid fa-circle-xmark"></i></a></td>
+                    <td><img src="../img/products/f1.jpg" alt=""></td>
+                    <td>cartoon astronaut</td>
+                    <td>$118.19</td>
+                    <td><input type="number" value="1"></td>
+                    <td>$118.19</td>
+                </tr>
+            </tbody>
+
+            <tbody>
+                <tr>
+                    <td><a href="#"><i class="fa-solid fa-circle-xmark"></i></a></td>
+                    <td><img src="../img/products/f2.jpg" alt=""></td>
+                    <td>cartoon astronaut</td>
+                    <td>$118.19</td>
+                    <td><input type="number" value="1"></td>
+                    <td>$118.19</td>
+                </tr>
+            </tbody>
+
+
+            <tbody>
+                <tr>
+                    <td><a href="#"><i class="fa-solid fa-circle-xmark"></i></a></td>
+                    <td><img src="../img/products/f3.jpg" alt=""></td>
+                    <td>cartoon astronaut</td>
+                    <td>$118.19</td>
+                    <td><input type="number" value="1"></td>
+                    <td>$118.19</td>
+                </tr>
+            </tbody>
+
+        </table>
+
+    </section>
+
+    <section id="cart-add" class="section-p1">
+        <div id="cupon">
+            <h3>Apply Cupon</h3>
+            <div>
+                <input type="text" placeholder="enter your cupon">
+                <button class="normal">Apply</button>
+            </div>
+        </div>
+
+        <div id="subtotal">
+            <h3>Cart totals</h3>
+            <table>
+                <tr>
+                    <td>cart subtotal</td>
+                    <td>335$</td>
+                </tr>
+
+                <tr>
+                    <td>shipping</td>
+                    <td>free</td>
+                </tr>
+
+                <tr>
+                    <td><strong>total</strong></td>
+                    <td><strong>335$</strong></td>
+                </tr>
+            </table>
+
+            <button class="normal">proceed to check out</button>
+
+        </div>
+    </section>
+
+
+
+
+    <footer class="section-p1">
+        <div class="col">
+            <img class="logo" src="../img/logo.png" alt="">
+            <h4>contact</h4>
+            <p><strong>Address:</strong>562 wellinghton road,street 32,san francisco</p>
+            <p><strong>phone:</strong>+01 222 365/ (+91) 01 2345 6789</p>
+            <div class="follow">
+                <h4>follow us</h4>
+                <div class="icon">
+                    <i class="fa-brands fa-facebook"></i>
+                    <i class="fa-brands fa-twitter"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-pinterest-p"></i>
+                    <i class="fa-brands fa-youtube"></i>
+                </div>
+            </div>
+        </div>
+
+        <div class="col my_account">
+            <h4>My Account</h4>
+            <a href="#">Sign In</a>
+            <a href="#">View Cart</a>
+            <a href="#">My Wishlist</a>
+            <a href="#">Track My Order</a>
+            <a href="#">Help</a>
+        </div>
+
+        <div class="col">
+            <h4>About</h4>
+            <a href="#">about us</a>
+            <a href="#">delivery information</a>
+            <a href="#">privacy policy</a>
+            <a href="#">Terms & conditions</a>
+            <a href="#">Contact us</a>
+        </div>
+
+        <div class="col install">
+            <h4>Install App</h4>
+            <p>from app store or google drive</p>
+            <div class="row">
+                <img src="../img/pay/app.jpg" alt="">
+                <img src="../img/pay/play.jpg" alt="">
+            </div>
+            <p>secret payment Gateway</p>
+            <img src="../img/pay/pay.png" alt="">
+        </div>
+
+        
+    </footer>
+
+     
+    <script src="../js/script.js"></script>
+</body>
+</html>
